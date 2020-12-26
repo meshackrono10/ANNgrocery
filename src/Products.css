@@ -1,0 +1,48 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 250px;
+  height: 350px;
+  background: white;
+  margin: 15px;
+}
+.product_img {
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-top: 1px solid orange;
+}
+.product {
+  height: 400px;
+}
+.product h1 {
+  font-size: 16px;
+}
+.product h2 {
+  text-align: center;
+  margin: 15px;
+}
+.product p {
+  margin: 20px;
+  text-align: center;
+}
+.product button {
+  background: orange;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+  transition: 0.3s ease-in;
+  width: 150px;
+  margin-top: 15px;
+  bottom: 20px;
+}
+/* .button {
+  background: orange;
+}
+.button :hover {
+  background: orange;
+} */

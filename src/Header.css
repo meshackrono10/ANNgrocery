@@ -1,0 +1,90 @@
+.Header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  overflow-x: scroll;
+}
+.Header::-webkit-scrollbar {
+  display: none;
+}
+.header_nav span {
+  font-size: 30px;
+  color: #705e2c;
+  cursor: pointer;
+}
+.header_cart {
+  align-items: center;
+}
+.header_cart .MuiSvgIcon-root {
+  font-size: 38px;
+  color: #705e2c;
+  cursor: pointer;
+}
+.header_nav {
+  background: #131921;
+  height: 70%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.header_nav h1 {
+  color: #796a42;
+  align-items: center;
+  padding-top: 5px;
+}
+.header_cart {
+  margin: 15px;
+}
+.header_cart span {
+  color: white;
+  font-size: 20px;
+}
+/* input */
+.header_search {
+  flex: 1;
+  justify-content: center;
+  height: 40px;
+  background: white;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.header_search input {
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  outline-width: 0;
+  border: none;
+  padding-left: 15px;
+}
+/* buttons */
+.header_lineOne {
+  height: 60px;
+  width: 1px;
+  background: white;
+  margin: 5px;
+}
+.header_signin button {
+  background: transparent;
+  border: 1px solid white;
+  padding: 15px;
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  outline-color: white;
+}
+.nav_menu span {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .header_nav {
+    display: none;
+  }
+}

@@ -1,0 +1,78 @@
+.signIn {
+  min-height: 100vh;
+  background: #131921;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.signin_form {
+  border: 1px solid orange;
+  background: #c7c8ccfa;
+  max-width: 300px;
+  min-height: 40vh;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.signin_form p {
+  color: #292b33b4;
+}
+.signIn_btn {
+  background: orange;
+  border: none;
+}
+.signin_email {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.signin_email input {
+  font-size: 16px;
+  padding: 8px;
+  background: #e0e1e6fa;
+  border: none;
+  margin-top: 10px;
+  outline-color: orange;
+}
+.signinpassword {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.signinpassword input {
+  font-size: 16px;
+  padding: 8px;
+  background: #e0e1e6fa;
+  border: none;
+  margin-top: 10px;
+  outline-color: orange;
+}
+.signin_form button {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.signIn_btn1 {
+  background: #f5e394a1;
+  border: none;
+}
+.signin_logo {
+  background: #353b4244;
+  padding: 15px;
+  margin: 20px;
+  width: 250px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.signin_logo h1 {
+  color: #705e2c;
+  text-align: center;
+  margin: 20px;
+}
